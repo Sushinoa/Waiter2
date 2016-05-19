@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Waiter</title>
+    <link href="styles/Waiter.css" rel="stylesheet">
+    <link href="libs/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+ <script type="text/template" id='category'>
+             
+             <img class="img-thumbnail" src="<%=src%>" alt="Category">
+             <p class="category"><%=name%></p>
+    </script>
+
+    <script type="text/template" id='dishes'>
+
+        <img class="img-thumbnail" src="<%=src%>" alt="Dishes">
+        <p class="category"><%=name%></p>
+        <p><%=weight%></p>
+        <p><%=description%></p>
+        <p><%=price%></p>
+    </script>
+
+    <script type="text/template" id='order'>
+        <tr>
+            <td><%=name%></td>
+            <td>1</td>
+            <td><%=price%></td>
+            <td></td>
+            <td><button class="btn btn-danger delete" >x</button></td>
+        </tr>
+
+
+    </script>
+
+  <script src="libs/jquery.js"></script>
+    <script src="libs/underscore.js"></script>
+    <script src="libs/backbone.js"></script>
+    <script src="libs/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/models/CategoryModel.js"></script>
+    <script src="scripts/collections/CategoryCollection.js"></script>
+    <script src="scripts/views/CategoryView.js"></script>
+    <script src="scripts/views/CategoriesView.js"></script>
+    <script src="scripts/models/DishesModel.js"></script>
+    <script src="scripts/collections/DishesCollection.js"></script>
+    <script src="scripts/views/DishesView.js"></script>
+    <script src="scripts/views/DishView.js"></script>
+    <script src="scripts/models/OrderModel.js"></script>
+    <script src="scripts/collections/OrderCollection.js"></script>
+    <script src="scripts/views/OrdersView.js"></script>
+    <script src="scripts/views/OrderView.js"></script>
+    <script src="scripts/routes/CategoriesRoute.js"></script>
+    <script src="scripts/run.js"></script>
+
+
+   
+</head>
+<body>
+<header></header>
+<main>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 left" >
+                <table class="table table-hover order">
+                    <thead>
+                       <tr>
+                           <th>Наименование</th>
+                           <th>Кол-во</th>
+                           <th>Цена</th>
+                           <th>Итого</th>
+                           <th></th>
+                       </tr>
+                    </thead>
+                    <tfoot>
+                    <tr>
+                        <td></td>
+                        <td><button class="btn btn-success">Сохранить</button></td>
+                        <td><button class="btn btn-danger del">Удалить</button></td>
+                        <td></td>
+                    </tr>
+                    </tfoot>
+
+                </table>
+
+            </div>
+            <div class="col-md-8 right">
+                <button class="all  ">Все товары</button>
+                <ul class ="row menu "></ul>
+
+            </div>
+        </div>
+
+    </div>
+</main>
+<footer></footer>
+
+</body>
+</html>

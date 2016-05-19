@@ -1,0 +1,27 @@
+header{
+    background:black;
+    height: 40px;
+}
+main{
+
+}
+
+
+li{
+    list-style: none;
+}
+.all{
+    margin:15px;
+    background: white;
+}
+.category {
+    background: white;
+    border:1px solid lightsteelblue;
+    border-radius: 3px;
+    text-align: center;
+}
+.right{
+
+    background-image:  url(../Images/backround.jpg);
+}
+

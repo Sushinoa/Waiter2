@@ -1,0 +1,38 @@
+[{
+  "name":"Чизкейк",
+  "src":"Images/Desserts/cheesecak.png",
+  "weight":120,
+  "description":"Классический творожный десерт, подается с ванильно-клубничным соусом",
+  "price":50,
+  "number":1
+},
+  {
+    "name":"Пражский торт",
+    "src":"Images/Desserts/praga.jpg",
+    "weight":115,
+    "description":"Шоколадный бисквит, пропитанный кремом со сливочного масла и сгущенного молока",
+    "price":45
+  },
+  {
+    "name":"Наполеон",
+    "src":"Images/Desserts/napoleon.jpg",
+    "weight":90,
+    "description":"Слоённые коржи пропитанные заварным кремом",
+    "price":55
+  },
+  {
+    "name":"Тирамису",
+    "src":"Images/Desserts/tiramisu.png",
+    "weight":160,
+    "description":"Легкий крем со сливочным маскарпоне и бельгийским печеньем савоярди",
+    "price":59
+  },
+  {
+    "name":"Мороженое",
+    "src":"Images/Desserts/icecream.jpg",
+    "weight":200,
+    "description":"Сливочное, шоколадное, фисташковое, клубничное",
+    "price":25
+  }
+
+]

@@ -1,0 +1,36 @@
+[{
+  "name":"Сало",
+  "src":"Images/Snacks/narezka-salo.jpg",
+  "weight":180,
+  "description":"Подчеревок, сало в красном и черном перце",
+  "price":56
+},
+  {
+    "name":"Мясная нарезка",
+    "src":"Images/Snacks/narezka-meat.jpg",
+    "weight":250,
+    "description":"Буженина, ростбиф, куринный рулет",
+    "price":115
+  },
+  {
+    "name":"Сырные палочки",
+    "src":"Images/Snacks/surnue-palochki.jpg",
+    "weight":200,
+    "description":"Сулугуни жаренный в сухарях с соусом Мацони",
+    "price":69
+  },
+  {
+    "name":"Лосось малосольный",
+    "src":"Images/Snacks/narezka-losos.jpg",
+    "weight":80,
+    "description":"Лосось малосольный",
+    "price":75
+  },
+  {
+    "name":"Грибы маринованные",
+    "src":"Images/Snacks/marinov-gribu.jpg",
+    "weight":250,
+    "description":"Маринованные шампиньйоны",
+    "price":50
+  }
+]
